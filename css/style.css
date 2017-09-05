@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    text-align: center;
+    background-color: cornsilk;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#playerDropdown {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#menu {
+    background-color: #c3c7cd;
+    color: #69507d;
+    padding: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.playAgain {
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.score {
+    margin: 0 auto;
+    color: #69507d;
+}
+
+.endgame_menu {
+    margin: 0 auto;
+    color: #69507d;
+    display: none;
+}
+
+.endgame_menu input {
+    margin-top: 80px;
+    width: 150px;
+    height: 100px;
+}
+
+.arrow {
+    width: 350px;
+    height: 300px;
+}
+
+.gameboard {
+    visibility: hidden;
+}
